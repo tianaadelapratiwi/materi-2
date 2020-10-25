@@ -46,7 +46,7 @@
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       <nav class="nav-menu navbar-expand-lg d-none d-lg-block">
         <ul>
-          <li class="active"><a href="home">HOME</a></li>
+          <li ><a href="home">HOME</a></li>
           <li class="drop-down"><a href="">PRODUCT</a>
             <ul>
               <li><a href="#">Clothes</a></li>
@@ -74,158 +74,53 @@
             </ul>
           </li>
           <li><a href="#contact">CHECKOUT</a></li>
-          <li><a href="login">LOGIN</a></li>
+          <li><a href="#contact">LOGIN</a></li>
 
         </ul>  
     
 </div>
          </nav><!-- .nav-menu -->
-         
+
+    </div>
   </header><!-- End Header -->
 
-  
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
+ 
 
-      <h3>Welcome to <strong>Young Tian Shop</strong></h3>
-      <h1>LET'S SHOPPING</h1>
-      <h2>We are a shop that sells all kinds of the latest fashion brands</h2>
-      <a href="#about" class="btn-get-started scrollto">START SHOPPING</a>
-    </div>
-  </section><!-- End Hero -->
+  <main id="main">
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
       <div class="container">
 
         <div class="section-title">
-          <h2>Product</h2>
-          <h3>Check Our <span>Product</span></h3>
-          <p>Let's take a look at the newest products with the best quality and affordable prices.</p>
+          <h2>About</h2>
+          <h3>Learn More <span>About Us</span></h3>
+          <p>Young Tian Shop is an online shop that is made to make it easier for consumers to buy all kinds of the latest brands at affordable prices</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              The advantages of shopping at Young Tian Shop are as follows :
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> You can find all the fashion with the latest brands at cheap and affordable prices</li>
+              <li><i class="ri-check-double-line"></i> Every customer who has a member card will get a minimum shopping discount above the price of 500,000</li>
+              <li><i class="ri-check-double-line"></i> Shopping at Young Tian Store can save you time and money</li>
+              <li><i class="ri-check-double-line"></i> Payments made at Young Tian Shop were very easy</li>
             </ul>
           </div>
-        </div>
-
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>Shopping at our store has many advantages and of course really helps you in finding the latest brands at low and affordable prices.
+            </p>
+            <a href="#" class="btn-learn-more">Learn More</a>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- End About Section -->
 
- <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container">
-
-        <div class="text-center">
-          <h3>Happy Shopping</h3>
-          <p>Let's shop while the price is discounted at the end of the year.</p>
-          <a class="cta-btn" href="#">START SHOPPING</a>
-        </div>
-
-      </div>
-    </section><!-- End Cta Section -->
-  <!-- ======= Footer ======= -->
+    <!-- ======= Footer ======= -->
   <footer id="footer">
 
     <div class="footer-top">
@@ -260,7 +155,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              
             </ul>
           </div>
 
@@ -302,6 +196,22 @@
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>

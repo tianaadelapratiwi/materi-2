@@ -46,7 +46,7 @@
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       <nav class="nav-menu navbar-expand-lg d-none d-lg-block">
         <ul>
-          <li class="active"><a href="home">HOME</a></li>
+          <li ><a href="home">HOME</a></li>
           <li class="drop-down"><a href="">PRODUCT</a>
             <ul>
               <li><a href="#">Clothes</a></li>
@@ -74,157 +74,97 @@
             </ul>
           </li>
           <li><a href="#contact">CHECKOUT</a></li>
-          <li><a href="login">LOGIN</a></li>
+          <li><a href="#contact">LOGIN</a></li>
 
         </ul>  
     
 </div>
          </nav><!-- .nav-menu -->
-         
+
+    </div>
   </header><!-- End Header -->
 
-  
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
+ 
 
-      <h3>Welcome to <strong>Young Tian Shop</strong></h3>
-      <h1>LET'S SHOPPING</h1>
-      <h2>We are a shop that sells all kinds of the latest fashion brands</h2>
-      <a href="#about" class="btn-get-started scrollto">START SHOPPING</a>
-    </div>
-  </section><!-- End Hero -->
+  <main id="main">
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
-          <h2>Product</h2>
-          <h3>Check Our <span>Product</span></h3>
-          <p>Let's take a look at the newest products with the best quality and affordable prices.</p>
+          <h2>Contact</h2>
+          <h3>Contact <span>Us</span></h3>
+          <p>If you are not satisfied with our services, you can contact our shop via the email address and telephone number listed below.</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.7774250835564!2d109.97290865036362!3d-1.83269393697669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e05185fbb896a6f%3A0xa3039d6250be4380!2sJl.%20Aip.%20Ks.%20Tubun%2C%20Sampit%2C%20Delta%20Pawan%2C%20Kabupaten%20Ketapang%2C%20Kalimantan%20Barat%2078811!5e0!3m2!1sid!2sid!4v1603596130331!5m2!1sid!2sid" width="600" frameborder="0" allowfullscreen></iframe>
 
-        <div class="row portfolio-container">
+        <div class="row mt-5">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>JL.Aip.Ks.Tubun <br> Kalimantan Barat, Ketapang<br></p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>tianaadelap@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+62 853 4946 6908</p>
+              </div>
+
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+          <div class="col-lg-8 mt-5 mt-lg-0">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- End Contact Section -->
 
- <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container">
+  </main><!-- End #main -->
 
-        <div class="text-center">
-          <h3>Happy Shopping</h3>
-          <p>Let's shop while the price is discounted at the end of the year.</p>
-          <a class="cta-btn" href="#">START SHOPPING</a>
-        </div>
-
-      </div>
-    </section><!-- End Cta Section -->
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
@@ -235,7 +175,7 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Young Tian</h3>
             <p>
-              JL.Aip.Ks.Tubun <br>
+             JL.Aip.Ks.Tubun <br>
               Kalimantan Barat, Ketapang<br>
               <br><br>
               <strong>Phone:</strong> +62 853 4946 6908<br>
@@ -250,6 +190,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Product</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Checkout</a></li>
+              
             </ul>
           </div>
 
