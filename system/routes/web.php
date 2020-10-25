@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
+<<<<<<< HEAD
 Route::get('/home', function () {
 	return view('home');
 });
@@ -34,3 +35,20 @@ Route::get('/checkout', function () {
 Route::get('/login', function () {
 	return view('login');
 });
+=======
+Route::get('/index', function () {
+	return view('index');
+});
+Route::get('/blank', function () {
+	return view('blank');
+});
+Route::get('/checkout', function () {
+	return view('checkout');
+});
+Route::get('/product', function () {
+	return view('product');
+});
+Route::get('/store', function () {
+	return view('store');
+});
+>>>>>>> 234d1360bba54342f3cf7daae040dcd9067dcf85
