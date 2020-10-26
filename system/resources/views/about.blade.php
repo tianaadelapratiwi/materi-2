@@ -1,94 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Young Tian Shop</title>
 
-  <title>Young Tian Shop</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 
-  <!-- Favicons -->
-  <link href="assets/img/apple-touch-icon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+    <!-- Slick -->
+    <link type="text/css" rel="stylesheet" href="css/slick.css"/>
+    <link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+
+    <!-- nouislider -->
+    <link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <!-- Favicons -->
+  <link href="{{url('public')}}/assets/img/apple-touch-icon.png" rel="icon">
+  <link href="{{url('public')}}/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="{{url('public')}}/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="{{url('public')}}/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="{{url('public')}}/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="{{url('public')}}/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="{{url('public')}}/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="{{url('public')}}/assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Tempo - v2.1.0
-  * Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-<body>
+    </head>
+  <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top bg-dark ">
+  <!-- HEADER -->
+    <header id="header" class="fixed-top bg-dark ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="index.html">Young Tian Shop</a></h1>
+      <h1 class="logo mr-auto"><a href="home">Young Tian Shop</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/hero-bg.jpg" alt="" class="img-fluid"></a>-->
       <nav class="nav-menu navbar-expand-lg d-none d-lg-block">
         <ul>
-          <li ><a href="home">HOME</a></li>
-          <li class="drop-down"><a href="">PRODUCT</a>
-            <ul>
-              <li><a href="#">Clothes</a></li>
-              </li>
-              </li>
-              <li><a href="#">Pants</a></li>
-              <li><a href="#">Jacket</a></li>
-              <li><a href="#">Shoes</a></li>
-              <li><a href="#">Sandals</a></li>
-              <li><a href="#">Hat</a></li>
-
-              <li class="drop-down text-danger"><a href="#">Year end discount</a>
-                <ul>
-                  <li><a href="#">Clothes</a></li>
-                  <li><a href="#">Pants</a></li>
-                  <li><a href="#">Jacket</a></li>
-                </ul>
-            </ul>
-          </li>
+          <li ><a href="{{ url('/home') }}">HOME</a></li>
+          <li><a href="{{ url('/product') }}">PRODUCT</a>
           <li class="drop-down"><a href="">ABOUT</a>
             <ul>
-              <li><a href="about">About Us</a></li>
-              <li><a href="contact">Contact Us</a></li>
+              <li><a href="{{ url('/about') }}">About Us</a></li>
+              <li><a href="{{ url('/contact') }}">Contact Us</a></li>
              
             </ul>
           </li>
-          <li><a href="#contact">CHECKOUT</a></li>
-          <li><a href="#contact">LOGIN</a></li>
+          <li><a href="{{ url('/checkout') }}">CHECKOUT</a></li>
+          <li><a href="{{ url('/login') }}">LOGIN</a></li>
 
         </ul>  
     
 </div>
          </nav><!-- .nav-menu -->
-
-    </div>
+         
   </header><!-- End Header -->
 
- 
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
+  
+  <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
 
@@ -118,9 +112,11 @@
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section><!-- End About Section -->  
+    
+ </main><!-- End #main -->
 
-    <!-- ======= Footer ======= -->
+  <!-- ======= Footer ======= -->
   <footer id="footer">
 
     <div class="footer-top">
@@ -133,8 +129,8 @@
               JL.Aip.Ks.Tubun <br>
               Kalimantan Barat, Ketapang<br>
               <br><br>
-              <strong>Phone:</strong> +62 853 4946 6908<br>
-              <strong>Email:</strong> tianaadelap@gmail.com<br>
+              <strong>Phone:</strong> +11 012 9898 1221<br>
+              <strong>Email:</strong> youngtianshop@gmail.com<br>
             </p>
           </div>
 
@@ -143,8 +139,9 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Product</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Checkout</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About</a></li>
+              
             </ul>
           </div>
 
@@ -155,6 +152,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              
             </ul>
           </div>
 
@@ -170,57 +168,42 @@
         </div>
       </div>
     </div>
-
-    <div class="container d-md-flex py-4">
-
-      <div class="mr-md-auto text-center text-md-left">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Tiana Adela Pratiwi</span></strong>. All Rights Reserved
+     <!-- bottom footer -->
+      <div id="bottom-footer" class="section">
+        <div class="container d-md-flex py-4">
+          <!-- row -->
+          
+          <div class="row">
+            <div class="col-md-12 text-center text-md-right pt-3 pt-md-0">
+              <ul class="footer-payments">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <span class="copyright">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tiana Adela Pratiwi| Project </i> by <a href="https://colorlib.com" target="_blank">TAP </a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </span>
+            </div>
+          </div>
+            <!-- /row -->
         </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/ -->
-          Designed by <a href="https://bootstrapmade.com/">TAP Project</a>
-        </div>
+        <!-- /container -->
       </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+      <!-- /bottom footer -->
 
   <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="{{url('public')}}/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="{{url('public')}}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="{{url('public')}}/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="{{url('public')}}/assets/vendor/php-email-form/validate.js"></script>
+  <script src="{{url('public')}}/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="{{url('public')}}/assets/vendor/venobox/venobox.min.js"></script>
+  <script src="{{url('public')}}/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

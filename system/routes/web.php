@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,9 +12,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-<<<<<<< HEAD
-Route::get('/home', function () {
+Route::get('home', function () {
 	return view('home');
 });
 
@@ -25,30 +22,20 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
 	return view('contact');
 });
-
-Route::get('/blank', function () {
-	return view('blank');
+Route::get('/about', function () {
+	return view('about');
 });
+
 Route::get('/checkout', function () {
 	return view('checkout');
 });
 Route::get('/login', function () {
 	return view('login');
 });
-=======
-Route::get('/index', function () {
-	return view('index');
-});
-Route::get('/blank', function () {
-	return view('blank');
-});
-Route::get('/checkout', function () {
-	return view('checkout');
+Route::get('/masuk', function () {
+	return view('masuk');
 });
 Route::get('/product', function () {
 	return view('product');
 });
-Route::get('/store', function () {
-	return view('store');
-});
->>>>>>> 234d1360bba54342f3cf7daae040dcd9067dcf85
+

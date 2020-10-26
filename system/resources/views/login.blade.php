@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="widht=device-width, initial-scale">
 <!--  <link rel="stylesheet" type="text/css" href="css2/font-awesome.min.css"> -->
+ <link href="{{url('public')}}/assets/img/apple-touch-icon.png" rel="icon">
+<link href="{{url('public')}}/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <title>Login</title>
 <style type="text/css">
 /*login*/
@@ -13,14 +15,13 @@
   height: 100vh;
   justify-content:  center;
   align-items: center;
-  background-image: url('assets/img/yy.jpg');
-  background: cover;
+  background-color: #F5F5F5;
 }
 .log-1{
-  width: 360px;
+  width: 350px;
   border-radius: 15px;
   opacity: 0.8;
-  background-color: #000000;
+  background-color: black;
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
@@ -56,7 +57,7 @@
   color: black;
 }
 .btn:hover{
-  background-color: #dcdcdc;
+  background-color: #black;
   color: black;
 } 
 </style>
@@ -67,7 +68,7 @@
       <form action="" method="">
         <input type="text" name="user" placeholder="Username" class="input-control"> 
         <input type="password" name="user" placeholder="Password" class="input-control"> 
-        <button type="submit" class="btn"><a href="{{ url('/')}}">Login</a></button>
+        <button type="submit" class="btn"><a href="{{ url('/home')}}">Login</a></button>
       </form>
     </div>
   </body>
