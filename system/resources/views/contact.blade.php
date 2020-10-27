@@ -62,12 +62,12 @@
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/hero-bg.jpg" alt="" class="img-fluid"></a>-->
       <nav class="nav-menu navbar-expand-lg d-none d-lg-block">
         <ul>
-          <li class="active" ><a href="{{ url('/home') }}">HOME</a></li>
+          <li ><a href="{{ url('/home') }}">HOME</a></li>
           <li ><a href="{{ url('/product') }}">PRODUCT</a>
           <li class="drop-down"><a href="">ABOUT</a>
             <ul>
               <li><a href="{{ url('/about') }}">About Us</a></li>
-              <li><a href="{{ url('/contact') }}">Contact Us</a></li>
+              <li ><a href="{{ url('/contact') }}">Contact Us</a></li>
              
             </ul>
           </li>

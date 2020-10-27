@@ -127,7 +127,7 @@
 										Create Account?
 									</label>
 									<div class="caption">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+										<p>create an account first.</p>
 										<input class="input" type="password" name="password" placeholder="Enter Your Password">
 									</div>
 								</div>
@@ -195,12 +195,12 @@
 							</div>
 							<div class="order-products">
 								<div class="order-col">
-									<div>1x Product Name Goes Here</div>
-									<div>$980.00</div>
+									<div>1x Jogger Pants</div>
+									<div>Rp 100.000</div>
 								</div>
 								<div class="order-col">
-									<div>2x Product Name Goes Here</div>
-									<div>$980.00</div>
+									<div>2x Denim Jacket</div>
+									<div>Rp 300.000</div>
 								</div>
 							</div>
 							<div class="order-col">
@@ -209,7 +209,7 @@
 							</div>
 							<div class="order-col">
 								<div><strong>TOTAL</strong></div>
-								<div><strong class="order-total">$2940.00</strong></div>
+								<div><strong class="order-total">Rp 400.000</strong></div>
 							</div>
 						</div>
 						<div class="payment-method">
@@ -220,7 +220,7 @@
 									Direct Bank Transfer
 								</label>
 								<div class="caption">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p>Make payments via Direct Bank Transfer</p>
 								</div>
 							</div>
 							<div class="input-radio">
@@ -230,7 +230,7 @@
 									Cheque Payment
 								</label>
 								<div class="caption">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p>Make a payment via check.</p>
 								</div>
 							</div>
 							<div class="input-radio">
@@ -240,7 +240,7 @@
 									Paypal System
 								</label>
 								<div class="caption">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p>Make payments via the Paypal system</p>
 								</div>
 							</div>
 						</div>

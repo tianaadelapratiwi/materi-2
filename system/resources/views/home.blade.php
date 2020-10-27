@@ -124,7 +124,7 @@
               </div>
               <div class="shop-body">
                 <h3>Clothes<br>Collection</h3>
-                <a href="{{ url('/checkout') }}" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="{{ url('/product') }}" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>
@@ -138,7 +138,7 @@
               </div>
               <div class="shop-body">
                 <h3>Pants<br>Collection</h3>
-                <a href="{{ url('/checkout') }}" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="{{ url('/product') }}" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>
@@ -152,7 +152,7 @@
               </div>
               <div class="shop-body">
                 <h3>Jacket<br>Collection</h3>
-                <a href="{{ url('/checkout') }}" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="{{ url('/product') }}" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>
@@ -224,7 +224,7 @@
                         </div>
                       </div>
                       <div class="add-to-cart">
-                        <button class="add-to-cart-btn"><a href="{{ url('/checkout') }}"></a><i class="fa fa-shopping-cart"></i> add to cart</button>
+                        <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i><a href="{{ url('/store') }}"><b>add to cart</b></button></a>
                       </div>
                     </div>
                     <!-- /product -->
@@ -240,13 +240,13 @@
                       <div class="product-body">
                         <p class="product-category">Category Clothes</p>
                         <h3 class="product-name"><a href="#">Korean Clothes</a></h3>
-                        <h4 class="product-price">Rp 85.000<del class="product-old-price">Rp 100.000</del></h4>
+                        <h4 class="product-price">Rp 85.000<del class="product-old-price">Rp 85.000</del></h4>
                         <div class="product-rating">
                           <i class="fa fa-star"></i>
                           <i class="fa fa-star"></i>
                           <i class="fa fa-star"></i>
                           <i class="fa fa-star"></i>
-                          <i class="fa fa-star-o"></i>
+                          <i class="fa fa-star"></i>
                         </div>
                         <div class="product-btns">
                           <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
@@ -255,7 +255,7 @@
                         </div>
                       </div>
                       <div class="add-to-cart">
-                        <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                        <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i><a href="{{ url('/store') }}"><b>add to cart</b></button></a>
                       </div>
                     </div>
                     <!-- /product -->
@@ -268,7 +268,7 @@
                       <div class="product-body">
                         <p class="product-category">Category Pants</p>
                         <h3 class="product-name"><a href="#">Sports Kanva Pants</a></h3>
-                        <h4 class="product-price">Rp 110.000 <del class="product-old-price">Rp.170.000</del></h4>
+                        <h4 class="product-price">Rp 110.000 <del class="product-old-price">Rp 170.000</del></h4>
                         <div class="product-rating">
                           <i class="fa fa-star"></i>
                           <i class="fa fa-star"></i>
@@ -283,7 +283,7 @@
                         </div>
                       </div>
                       <div class="add-to-cart">
-                        <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                        <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i><a href="{{ url('/store') }}"><b>add to cart</b></button></a>
                       </div>
                     </div>
                     <!-- /product -->
@@ -303,7 +303,7 @@
                           <i class="fa fa-star"></i>
                           <i class="fa fa-star"></i>
                           <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star-o"></i>
                         </div>
                         <div class="product-btns">
                           <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
@@ -312,7 +312,7 @@
                         </div>
                       </div>
                       <div class="add-to-cart">
-                        <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                        <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i><a href="{{ url('/store') }}"><b>add to cart</b></button></a>
                       </div>
                     </div>
                     <!-- /product -->
@@ -340,7 +340,7 @@
                         </div>
                       </div>
                       <div class="add-to-cart">
-                        <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                        <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i><a href="{{ url('/store') }}"><b>add to cart</b></button></a>
                       </div>
                     </div>
                     <!-- /product -->
@@ -368,7 +368,7 @@
                         </div>
                       </div>
                       <div class="add-to-cart">
-                        <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                        <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i><a href="{{ url('/store') }}"><b>add to cart</b></button></a>
                       </div>
                     </div>
                     <!-- /product -->
@@ -401,7 +401,7 @@
               </div>
               <div class="shop-body">
                 <h3>Shoes<br>Collection</h3>
-                <a href="{{ url('/checkout') }}" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="{{ url('/product') }}" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>
@@ -415,7 +415,7 @@
               </div>
               <div class="shop-body">
                 <h3>Sandals<br>Collection</h3>
-                <a href="{{ url('/checkout') }}" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="{{ url('/product') }}" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>
@@ -429,7 +429,7 @@
               </div>
               <div class="shop-body">
                 <h3>Hat<br>Collection</h3>
-                <a href="{{ url('/checkout') }}" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="{{ url('/product') }}" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>
@@ -442,7 +442,302 @@
       <!-- /container -->
     </div>
     <!-- /SECTION -->
-    <!-- ======= Footer ======= -->
+
+     <!-- SECTION -->
+    <div class="section">
+      <!-- container -->
+      <div class="container">
+        <!-- row -->
+        <div class="row">
+          <div class="col-md-4 col-xs-6">
+            <div class="section-title">
+              <h4 class="title">Top selling</h4>
+              <div class="section-nav">
+                <div id="slick-nav-3" class="products-slick-nav"></div>
+              </div>
+            </div>
+
+            <div class="products-widget-slick" data-nav="#slick-nav-3">
+              <div>
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/22.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Sandals</p>
+                    <h3 class="product-name"><a href="#">Flat Sandals</a></h3>
+                    <h4 class="product-price">Rp 45.000 <del class="product-old-price">Rp 60.000</del></h4>
+                  </div>
+                </div>
+                <!-- /product widget -->
+
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/23.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Hat</p>
+                    <h3 class="product-name"><a href="#">Black Hat</a></h3>
+                    <h4 class="product-price">Rp 35.000 <del class="product-old-price">Rp 50.000</del></h4>
+                  </div>
+                </div>
+                <!-- /product widget -->
+
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/r.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Clothes</p>
+                    <h3 class="product-name"><a href="#">Tie Dye Clothes</a></h3>
+                    <h4 class="product-price">Rp 195.000<del class="product-old-price">Rp 250.000</del></h4>
+                  </div>
+                </div>
+                <!-- product widget -->
+              </div>
+
+              <div>
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/1.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Pants</p>
+                    <h3 class="product-name"><a href="#">Sports Kanva pants</a></h3>
+                    <h4 class="product-price">Rp 110.000 <del class="product-old-price">Rp 170.000</del></h4>
+                  </div>
+                </div>
+                <!-- /product widget -->
+
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/2.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Jacket</p>
+                    <h3 class="product-name"><a href="#">Denim Jacket</a></h3>
+                    <h4 class="product-price">Rp 145.000 <del class="product-old-price">Rp 190.000</del></h4>
+                  </div>
+                </div>
+                <!-- /product widget -->
+
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/4.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Clothes</p>
+                    <h3 class="product-name"><a href="#">Deus Clothes</a></h3>
+                    <h4 class="product-price">Rp 50.000 <del class="product-old-price">Rp 85.000</del></h4>
+                  </div>
+                </div>
+                <!-- product widget -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-xs-6">
+            <div class="section-title">
+              <h4 class="title">Top selling</h4>
+              <div class="section-nav">
+                <div id="slick-nav-4" class="products-slick-nav"></div>
+              </div>
+            </div>
+
+            <div class="products-widget-slick" data-nav="#slick-nav-4">
+              <div>
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/k.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Hat</p>
+                    <h3 class="product-name"><a href="#">Korean Hat</a></h3>
+                    <h4 class="product-price">Rp 75.000  <del class="product-old-price">Rp 99.000</del></h4>
+                  </div>
+                </div>
+                <!-- /product widget -->
+
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/77.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Jacket</p>
+                    <h3 class="product-name"><a href="#">Levis Jacket</a></h3>
+                    <h4 class="product-price">Rp 195.000 <del class="product-old-price">Rp 250.000</del></h4>
+                  </div>
+                </div>
+                <!-- /product widget -->
+
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/i.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Pants</p>
+                    <h3 class="product-name"><a href="#">Hot Pants</a></h3>
+                    <h4 class="product-price">Rp 5.500 <del class="product-old-price">Rp 10.000</del></h4>
+                  </div>
+                </div>
+                <!-- product widget -->
+              </div>
+
+              <div>
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/u.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Pants</p>
+                    <h3 class="product-name"><a href="#">Trousers</a></h3>
+                    <h4 class="product-price">Rp 100.000 <del class="product-old-price">Rp 150.000</del></h4>
+                  </div>
+                </div>
+                <!-- /product widget -->
+
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/ti.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Shoes</p>
+                    <h3 class="product-name"><a href="#">Vans Shoes</a></h3>
+                    <h4 class="product-price">Rp 75.000 <del class="product-old-price">Rp 150.000</del></h4>
+                  </div>
+                </div>
+                <!-- /product widget -->
+
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/yu.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Hat</p>
+                    <h3 class="product-name"><a href="#">Black Rose Hat</a></h3>
+                    <h4 class="product-price">Rp 45.000 <del class="product-old-price">Rp 70.000</del></h4>
+                  </div>
+                </div>
+                <!-- product widget -->
+              </div>
+            </div>
+          </div>
+
+          <div class="clearfix visible-sm visible-xs"></div>
+
+          <div class="col-md-4 col-xs-6">
+            <div class="section-title">
+              <h4 class="title">Top selling</h4>
+              <div class="section-nav">
+                <div id="slick-nav-5" class="products-slick-nav"></div>
+              </div>
+            </div>
+
+            <div class="products-widget-slick" data-nav="#slick-nav-5">
+              <div>
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/55.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Shoes</p>
+                    <h3 class="product-name"><a href="#">Ventella Shoes</a></h3>
+                    <h4 class="product-price">Rp 239.000 <del class="product-old-price">Rp 260.000</del></h4>
+                  </div>
+                </div>
+                <!-- /product widget -->
+
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/h.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Clothes</p>
+                    <h3 class="product-name"><a href="#">Crop Clothes</a></h3>
+                    <h4 class="product-price">Rp 95.000 <del class="product-old-price">Rp 150.000</del></h4>
+                  </div>
+                </div>
+                <!-- /product widget -->
+
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/3.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Jacket</p>
+                    <h3 class="product-name"><a href="#">Jacket Denim</a></h3>
+                    <h4 class="product-price">Rp 150.000 <del class="product-old-price">Rp 200.000 </del></h4>
+                  </div>
+                </div>
+                <!-- product widget -->
+              </div>
+
+              <div>
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/p.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Jacket</p>
+                    <h3 class="product-name"><a href="#"> Levis Jacket</a></h3>
+                    <h4 class="product-price">Rp 170.000 <del class="product-old-price">Rp 195.000</del></h4>
+                  </div>
+                </div>
+                <!-- /product widget -->
+
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/o.jpg" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Shoes</p>
+                    <h3 class="product-name"><a href="#">Compass Shoes</a></h3>
+                    <h4 class="product-price">Rp 95.500 <del class="product-old-price">Rp 150.000</del></h4>
+                  </div>
+                </div>
+                <!-- /product widget -->
+
+                <!-- product widget -->
+                <div class="product-widget">
+                  <div class="product-img">
+                    <img src="./img/c.PNG" alt="">
+                  </div>
+                  <div class="product-body">
+                    <p class="product-category">Category Hat</p>
+                    <h3 class="product-name"><a href="#">Beanie Hat</a></h3>
+                    <h4 class="product-price">Rp 12.000 <del class="product-old-price">Rp 20.000</del></h4>
+                  </div>
+                </div>
+                <!-- product widget -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- /row -->
+      </div>
+      <!-- /container -->
+    </div>
+    <!-- /SECTION -->
+
+     <!-- ======= Footer ======= -->
   <footer id="footer">
 
     <div class="footer-top">
@@ -493,6 +788,11 @@
         </div>
       </div>
     </div>
+
+
+
+
+
       <!-- bottom footer -->
       <div id="bottom-footer" class="section">
         <div class="container d-md-flex py-4">
@@ -521,7 +821,7 @@
     </footer>
     <!-- /FOOTER -->
 
-    <!-- jQuery Plugins -->
+        <!-- jQuery Plugins -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>

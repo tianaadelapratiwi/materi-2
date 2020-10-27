@@ -12,6 +12,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+Route::get('/index', function () {
+	return view('index');
+});
+
 Route::get('home', function () {
 	return view('home');
 });
@@ -37,5 +42,8 @@ Route::get('/masuk', function () {
 });
 Route::get('/product', function () {
 	return view('product');
+});
+Route::get('/store', function () {
+	return view('store');
 });
 

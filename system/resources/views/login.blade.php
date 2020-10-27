@@ -1,12 +1,19 @@
-<!DOCTYPE html>
+
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="widht=device-width, initial-scale">
 <!--  <link rel="stylesheet" type="text/css" href="css2/font-awesome.min.css"> -->
- <link href="{{url('public')}}/assets/img/apple-touch-icon.png" rel="icon">
-<link href="{{url('public')}}/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+<!-- Favicons -->
+  <link href="{{url('public')}}/assets/img/apple-touch-icon.png" rel="icon">
+  <link href="{{url('public')}}/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    </head>
+  <body>
+    
+
   <title>Login</title>
 <style type="text/css">
 /*login*/
@@ -15,7 +22,7 @@
   height: 100vh;
   justify-content:  center;
   align-items: center;
-  background-color: #F5F5F5;
+  background-color: #696969;
 }
 .log-1{
   width: 350px;
@@ -45,7 +52,7 @@
 }
 
 .btn{
-  background-color: #fff;
+  background-color: #00000;
   padding: 8px 15px;
   border: none;
   cursor: pointer;
@@ -57,7 +64,7 @@
   color: black;
 }
 .btn:hover{
-  background-color: #black;
+  background-color: #00000;
   color: black;
 } 
 </style>
@@ -71,6 +78,12 @@
         <button type="submit" class="btn"><a href="{{ url('/home')}}">Login</a></button>
       </form>
     </div>
+
+
+
+
+
+
   </body>
 
   </html>
