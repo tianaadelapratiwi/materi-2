@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+ <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
@@ -60,7 +60,7 @@
       <h1 class="logo mr-auto"><a href="home">Young Tian Shop</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/hero-bg.jpg" alt="" class="img-fluid"></a>-->
-      <nav class="nav-menu navbar-expand-lg d-none d-lg-block">
+       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active" ><a href="{{ url('/home') }}">HOME</a></li>
           <li ><a href="{{ url('/product') }}">PRODUCT</a>
