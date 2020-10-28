@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+  <head>
     <meta charset="utf-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <title>Young Tian Shop</title>
 
-    <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
@@ -257,6 +256,8 @@
                       <div class="add-to-cart">
                         <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i><a href="{{ url('/store') }}"><b>add to cart</b></button></a>
                       </div>
+
+                      
                     </div>
                     <!-- /product -->
 
@@ -822,13 +823,14 @@
     <!-- /FOOTER -->
 
         <!-- jQuery Plugins -->
+    <!-- jQuery Plugins -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/nouislider.min.js"></script>
     <script src="js/jquery.zoom.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="assets/js/main.js"></script>
+
     <script src="{{url('public')}}/assets/vendor/jquery/jquery.min.js"></script>
     <script src="{{url('public')}}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="{{url('public')}}/assets/vendor/jquery.easing/jquery.easing.min.js"></script>

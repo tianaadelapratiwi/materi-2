@@ -258,6 +258,7 @@
                 </div>
                 <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i><a href="{{ url('/checkout') }}"><b>add to cart</b></button></a>
               </div>
+              
 
               <ul class="product-btns">
                 <li><a href="#"><i class="fa fa-heart-o"></i> add to wishlist</a></li>
