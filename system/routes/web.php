@@ -47,3 +47,15 @@ Route::get('/store', function () {
 	return view('store');
 });
 
+
+Route::get('admin/beranda', [HomeController::class, 'showBeranda']);
+Route::get('admin/kategori', [HomeController::class, 'showKategori']);
+Route::get('admin/login', [AuthController::class, 'showlogin']);
+
+Route::get('admin/produk', [ProdukController::class, 'index']);
+Route::get('admin/produk/create', [ProdukController::class, 'create']);
+Route::post('admin/produk', [ProdukController::class, 'store']);
+Route::get('admin/produk/{produk}', [ProdukController::class, 'show']);
+Route::get('admin/produk/edit/{produk}', [ProdukController::class, 'edit']);
+Route::put('admin/produk/{produk}', [ProdukController::class, 'update']);
+

@@ -59,7 +59,7 @@
 
       <h1 class="logo mr-auto"><a href="home">Young Tian Shop</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/hero-bg.jpg" alt="" class="img-fluid"></a>-->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="{{url('public')}}/sets/img/hero-bg.jpg" alt="" class="img-fluid"></a>-->
       <nav class="nav-menu navbar-expand-lg d-none d-lg-block">
         <ul>
           <li ><a href="{{ url('/home') }}">HOME</a></li>
@@ -119,43 +119,43 @@
           <div class="col-md-5 col-md-push-2">
             <div id="product-main-img">
               <div class="product-preview">
-                <img src="./img/6.jpg" alt="">
+                <img src="{{url('public')}}/img/6.jpg" alt="">
               </div>
 
               <div class="product-preview">
-                <img src="./img/9.jpeg" alt="">
+                <img src="{{url('public')}}/img/9.jpeg" alt="">
               </div>
 
               <div class="product-preview">
-                <img src="./img/1.jpg" alt="">
+                <img src="{{url('public')}}/img/1.jpg" alt="">
               </div>
 
               <div class="product-preview">
-                <img src="./img/8.jpg" alt="">
+                <img src="{{url('public')}}/img/8.jpg" alt="">
               </div>
 
               <div class="product-preview">
-                <img src="./img/3.jpg" alt="">
+                <img src="{{url('public')}}/img/3.jpg" alt="">
               </div>
             
 
             <div class="product-preview">
-                <img src="./img/r.jpg" alt="">
+                <img src="{{url('public')}}/img/r.jpg" alt="">
               </div>
             
 
             <div class="product-preview">
-                <img src="./img/k.jpg" alt="">
+                <img src="{{url('public')}}/img/k.jpg" alt="">
               </div>
           
 
             <div class="product-preview">
-                <img src="./img/i.jpg" alt="">
+                <img src="{{url('public')}}/img/i.jpg" alt="">
               </div>
           
 
             <div class="product-preview">
-                <img src="./img/4.jpg" alt="">
+                <img src="{{url('public')}}/img/4.jpg" alt="">
               </div>
            
 
@@ -168,43 +168,43 @@
           <div class="col-md-2  col-md-pull-5">
             <div id="product-imgs">
               <div class="product-preview">
-                <img src="./img/6.jpg" alt="">
+                <img src="{{url('public')}}/img/6.jpg" alt="">
               </div>
 
               <div class="product-preview">
-                <img src="./img/9.jpeg" alt="">
+                <img src="{{url('public')}}/img/9.jpeg" alt="">
               </div>
 
               <div class="product-preview">
-                <img src="./img/1.jpg" alt="">
+                <img src="{{url('public')}}/img/1.jpg" alt="">
               </div>
 
               <div class="product-preview">
-                <img src="./img/8.jpg" alt="">
+                <img src="{{url('public')}}/img/8.jpg" alt="">
               </div>
 
               <div class="product-preview">
-                <img src="./img/3.jpg" alt="">
+                <img src="{{url('public')}}/img/3.jpg" alt="">
               </div>
             
 
             <div class="product-preview">
-                <img src="./img/r.jpg" alt="">
+                <img src="{{url('public')}}/img/r.jpg" alt="">
               </div>
             
 
             <div class="product-preview">
-                <img src="./img/k.jpg" alt="">
+                <img src="{{url('public')}}/img/k.jpg" alt="">
               </div>
           
 
             <div class="product-preview">
-                <img src="./img/i.jpg" alt="">
+                <img src="{{url('public')}}/img/i.jpg" alt="">
               </div>
           
 
             <div class="product-preview">
-                <img src="./img/4.jpg" alt="">
+                <img src="{{url('public')}}/img/4.jpg" alt="">
               </div>
            
 
@@ -521,7 +521,7 @@
           <div class="col-md-3 col-xs-6">
             <div class="product">
               <div class="product-img">
-                <img src="./img/6.jpg" alt="">
+                <img src="{{url('public')}}/img/6.jpg" alt="">
                 <div class="product-label">
                   <span class="sale">-30%</span>
                    <span class="new">NEW</span>
@@ -555,7 +555,7 @@
           <div class="col-md-3 col-xs-6">
             <div class="product">
               <div class="product-img">
-                <img src="./img/9.jpeg" alt="">
+                <img src="{{url('public')}}/img/9.jpeg" alt="">
                 <div class="product-label">
                   <span class="new">NEW</span>
                 </div>
@@ -590,7 +590,7 @@
           <div class="col-md-3 col-xs-6">
             <div class="product">
               <div class="product-img">
-                <img src="./img/1.jpg" alt="">
+                <img src="{{url('public')}}/img/1.jpg" alt="">
               </div>
               <div class="product-body">
                 <p class="product-category">Category Pants</p>
@@ -620,7 +620,7 @@
           <div class="col-md-3 col-xs-6">
             <div class="product">
               <div class="product-img">
-                <img src="./img/r.jpg" alt="">
+                <img src="{{url('public')}}/img/r.jpg" alt="">
               </div>
               <div class="product-body">
                 <p class="product-category">Category Clothes</p>
@@ -748,12 +748,12 @@
   <script src="assets/js/main.js"></script>
 
 <!-- jQuery Plugins -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/nouislider.min.js"></script>
-<script src="js/jquery.zoom.min.js"></script>
-<script src="js/main.js"></script>
+ <script src="{{url('public')}}/style/js/jquery.min.js"></script>
+ <script src="{{url('public')}}/style/js/bootstrap.min.js"></script>
+ <script src="{{url('public')}}/style/js/slick.min.js"></script>
+ <script src="{{url('public')}}/style/js/nouislider.min.js"></script>
+ <script src="{{url('public')}}/style/js/jquery.zoom.min.js"></script>
+ <script src="{{url('public')}}/style/js/main.js"></script>
 
 
 </body>

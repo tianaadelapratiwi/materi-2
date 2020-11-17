@@ -58,7 +58,7 @@
 
       <h1 class="logo mr-auto"><a href="home">Young Tian Shop</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/hero-bg.jpg" alt="" class="img-fluid"></a>-->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="{{url('public')}}/sets/img/hero-bg.jpg" alt="" class="img-fluid"></a>-->
        <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active" ><a href="{{ url('/home') }}">HOME</a></li>
@@ -119,7 +119,7 @@
           <div class="col-md-4 col-xs-6">
             <div class="shop">
               <div class="shop-img">
-                <img src="./img/4.jpg" alt="">
+                <img src="{{url('public')}}/img/4.jpg" alt="">
               </div>
               <div class="shop-body">
                 <h3>Clothes<br>Collection</h3>
@@ -133,7 +133,7 @@
           <div class="col-md-4 col-xs-6">
             <div class="shop">
               <div class="shop-img">
-                <img src="./img/1.jpg" alt="">
+                <img src="{{url('public')}}/img/1.jpg" alt="">
               </div>
               <div class="shop-body">
                 <h3>Pants<br>Collection</h3>
@@ -147,7 +147,7 @@
           <div class="col-md-4 col-xs-6">
             <div class="shop">
               <div class="shop-img">
-                <img src="./img/3.jpg" alt="">
+                <img src="{{url('public')}}/img/3.jpg" alt="">
               </div>
               <div class="shop-body">
                 <h3>Jacket<br>Collection</h3>
@@ -199,7 +199,7 @@
                     <!-- product -->
                     <div class="product">
                       <div class="product-img">
-                        <img src="./img/6.jpg" alt="">
+                        <img src="{{url('public')}}/img/6.jpg" alt="">
                         <div class="product-label">
                           <span class="sale">-30%</span>
                           <span class="new">NEW</span>
@@ -231,7 +231,7 @@
                     <!-- product -->
                     <div class="product">
                       <div class="product-img">
-                        <img src="./img/9.jpeg" alt="">
+                        <img src="{{url('public')}}/img/9.jpeg" alt="">
                         <div class="product-label">
                           <span class="new">NEW</span>
                         </div>
@@ -264,7 +264,7 @@
                     <!-- product -->
                     <div class="product">
                       <div class="product-img">
-                        <img src="./img/1.jpg" alt="">
+                        <img src="{{url('public')}}/img/1.jpg" alt="">
                       </div>
                       <div class="product-body">
                         <p class="product-category">Category Pants</p>
@@ -293,7 +293,7 @@
                     <!-- product -->
                     <div class="product">
                       <div class="product-img">
-                        <img src="./img/h.jpg" alt="">
+                        <img src="{{url('public')}}/img/h.jpg" alt="">
                       </div>
                       <div class="product-body">
                         <p class="product-category">Category Clothes</p>
@@ -321,7 +321,7 @@
                     <!-- product -->
                     <div class="product">
                       <div class="product-img">
-                        <img src="./img/8.jpg" alt="">
+                        <img src="{{url('public')}}/img/8.jpg" alt="">
                       </div>
                       <div class="product-body">
                         <p class="product-category">Category Pants</p>
@@ -349,7 +349,7 @@
                     <!-- product -->
                     <div class="product">
                       <div class="product-img">
-                        <img src="./img/3.jpg" alt="">
+                        <img src="{{url('public')}}/img/3.jpg" alt="">
                       </div>
                       <div class="product-body">
                         <p class="product-category">Category Jacket</p>
@@ -398,7 +398,7 @@
           <div class="col-md-4 col-xs-6">
             <div class="shop">
               <div class="shop-img">
-                <img src="./img/55.jpg" alt="">
+                <img src="{{url('public')}}/img/55.jpg" alt="">
               </div>
               <div class="shop-body">
                 <h3>Shoes<br>Collection</h3>
@@ -412,7 +412,7 @@
           <div class="col-md-4 col-xs-6">
             <div class="shop">
               <div class="shop-img">
-                <img src="./img/56.jpg" alt="">
+                <img src="{{url('public')}}/img/56.jpg" alt="">
               </div>
               <div class="shop-body">
                 <h3>Sandals<br>Collection</h3>
@@ -426,7 +426,7 @@
           <div class="col-md-4 col-xs-6">
             <div class="shop">
               <div class="shop-img">
-                <img src="./img/k.jpg" alt="">
+                <img src="{{url('public')}}/img/k.jpg" alt="">
               </div>
               <div class="shop-body">
                 <h3>Hat<br>Collection</h3>
@@ -463,7 +463,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/22.jpg" alt="">
+                    <img src="{{url('public')}}/img/22.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Sandals</p>
@@ -476,7 +476,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/23.jpg" alt="">
+                    <img src="{{url('public')}}/img/23.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Hat</p>
@@ -489,7 +489,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/r.jpg" alt="">
+                    <img src="{{url('public')}}/img/r.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Clothes</p>
@@ -504,7 +504,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/1.jpg" alt="">
+                    <img src="{{url('public')}}/img/1.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Pants</p>
@@ -517,7 +517,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/2.jpg" alt="">
+                    <img src="{{url('public')}}/img/2.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Jacket</p>
@@ -530,7 +530,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/4.jpg" alt="">
+                    <img src="{{url('public')}}/img/4.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Clothes</p>
@@ -556,7 +556,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/k.jpg" alt="">
+                    <img src="{{url('public')}}/img/k.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Hat</p>
@@ -569,7 +569,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/77.jpg" alt="">
+                    <img src="{{url('public')}}/img/77.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Jacket</p>
@@ -582,7 +582,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/i.jpg" alt="">
+                    <img src="{{url('public')}}/img/i.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Pants</p>
@@ -597,7 +597,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/u.jpg" alt="">
+                    <img src="{{url('public')}}/img/u.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Pants</p>
@@ -610,7 +610,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/ti.jpg" alt="">
+                    <img src="{{url('public')}}/img/ti.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Shoes</p>
@@ -623,7 +623,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/yu.jpg" alt="">
+                    <img src="{{url('public')}}/img/yu.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Hat</p>
@@ -651,7 +651,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/55.jpg" alt="">
+                    <img src="{{url('public')}}/img/55.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Shoes</p>
@@ -664,7 +664,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/h.jpg" alt="">
+                    <img src="{{url('public')}}/img/h.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Clothes</p>
@@ -677,7 +677,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/3.jpg" alt="">
+                    <img src="{{url('public')}}/img/3.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Jacket</p>
@@ -692,7 +692,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/p.jpg" alt="">
+                    <img src="{{url('public')}}/img/p.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Jacket</p>
@@ -705,7 +705,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/o.jpg" alt="">
+                    <img src="{{url('public')}}/img/o.jpg" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Shoes</p>
@@ -718,7 +718,7 @@
                 <!-- product widget -->
                 <div class="product-widget">
                   <div class="product-img">
-                    <img src="./img/c.PNG" alt="">
+                    <img src="{{url('public')}}/img/c.PNG" alt="">
                   </div>
                   <div class="product-body">
                     <p class="product-category">Category Hat</p>
@@ -824,12 +824,12 @@
 
         <!-- jQuery Plugins -->
     <!-- jQuery Plugins -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/nouislider.min.js"></script>
-    <script src="js/jquery.zoom.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{url('public')}}/style/js/jquery.min.js"></script>
+    <script src="{{url('public')}}/style/js/bootstrap.min.js"></script>
+    <script src="{{url('public')}}/style/js/slick.min.js"></script>
+    <script src="{{url('public')}}/style/js/nouislider.min.js"></script>
+    <script src="{{url('public')}}/style/js/jquery.zoom.min.js"></script>
+    <script src="{{url('public')}}/style/js/main.js"></script>
 
     <script src="{{url('public')}}/assets/vendor/jquery/jquery.min.js"></script>
     <script src="{{url('public')}}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
